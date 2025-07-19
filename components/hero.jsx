@@ -40,13 +40,7 @@ const HeroSection = () => {
             AI-powered tools for job success.
           </p>
         </div>
-        <div className="flex justify-center space-x-4">
-          <Link href="https://jobm.vercel.app/sign-in?after_sign_in_url=https%3A%2F%2Fjobm.vercel.app%2Fonboarding&after_sign_up_url=https%3A%2F%2Fjobm.vercel.app%2Fonboarding&redirect_url=https%3A%2F%2Fjobm.vercel.app%2F">
-            <Button size="lg" className="px-8">
-              Get Started
-            </Button>
-          </Link>
-        </div>
+
         <div className="hero-image-wrapper mt-5 md:mt-0">
           <div ref={imageRef} className="hero-image">
             <Image

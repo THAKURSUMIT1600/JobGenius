@@ -190,18 +190,6 @@ export default function Home() {
               Join thousands of professionals who are advancing their careers
               with AI-powered guidance.
             </p>
-            <Link
-              href="https://jobm.vercel.app/sign-in?after_sign_in_url=https%3A%2F%2Fjobm.vercel.app%2Fonboarding&after_sign_up_url=https%3A%2F%2Fjobm.vercel.app%2Fonboarding&redirect_url=https%3A%2F%2Fjobm.vercel.app%2F"
-              passHref
-            >
-              <Button
-                size="lg"
-                variant="secondary"
-                className="h-11 mt-5 animate-bounce"
-              >
-                Start Your Journey Today <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
-            </Link>
           </div>
         </div>
       </section>
